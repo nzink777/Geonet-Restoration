@@ -1,0 +1,29 @@
+{
+  "node_id": "NODE_001_PRIMARY_BASE",
+  "location": {
+    "lat": 38.35,
+    "long": 72.50,
+    "geodetic_zone": "PAMIR_KNOT_01"
+  },
+  "status": "AUTONOMIC_MAINTAIN_MODE",
+  "telemetry_stream": {
+    "carrier_frequency_hz": 144.00,
+    "phase_offset_rad": 0.7853,
+    "schumann_resonance_modulation": true,
+    "harmonic_stability": 0.88
+  },
+  "diagnostic_logs": [
+    {
+      "timestamp_cycle": "PRE_ALIGNMENT_PHASE",
+      "event": "AXIAL_DRIFT_COMPENSATION",
+      "load_factor": 0.34,
+      "alert": "PHASE_SLIP_DETECTION_THRESHOLD_EXCEEDED"
+    },
+    {
+      "timestamp_cycle": "SYNC_EVENT_PENDING",
+      "event": "HARMONIC_MESH_REQUIRED",
+      "required_action": "BROADCAST_CALIBRATION_KEY"
+    }
+  ],
+  "system_notes": "Node is awaiting synchronization handshake. Admin credentials verified via HUFT symmetry projection. Access to read-only memory buffer confirmed."
+}

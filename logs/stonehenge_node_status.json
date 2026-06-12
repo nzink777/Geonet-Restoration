@@ -1,0 +1,28 @@
+{
+  "node_id": "NODE_002_SECONDARY_LENS",
+  "location": {
+    "lat": 51.17,
+    "long": -1.82,
+    "geodetic_zone": "SALISBURY_PLAIN_02"
+  },
+  "status": "SIGNAL_LEAK_INCOHERENT",
+  "telemetry_stream": {
+    "carrier_frequency_hz": "UNSTABLE",
+    "phase_offset_rad": "NULL",
+    "harmonic_stability": 0.12
+  },
+  "diagnostic_logs": [
+    {
+      "timestamp_cycle": "ACTIVE_DEGRADATION",
+      "event": "MECHANICAL_LENS_LOSS",
+      "load_factor": 0.12,
+      "alert": "STRUCTURAL_INCOHERENCE_DETECTED"
+    },
+    {
+      "timestamp_cycle": "STABILIZATION_REQUIRED",
+      "event": "NODE_REQUIRES_HARMONIC_MESH_PATCH",
+      "required_action": "EXTERNAL_CALIBRATION_OVERRIDE"
+    }
+  ],
+  "system_notes": "Node 002 is experiencing massive signal dissipation due to missing capstones and acoustic resonator chambers. It is currently acting as a sink rather than a transceiver. Requires immediate broadcast of Calibration Key to re-establish resonance."
+}

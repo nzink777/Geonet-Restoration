@@ -7,3 +7,5 @@ time_offset,amplitude
 0.0050,1.0000
 ...
 0.0100,-0.0000
+
+Note: For the actual file, you would generate 441 samples per 10ms segment to ensure the 144 Hz frequency is perfectly represented.)
